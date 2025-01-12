@@ -11,4 +11,4 @@ The program's features include:
 The logic of solving a sudoku board is implemented by representing the board as an Integer Linear Programming problem, and then using the Gurobi library to solve that problem.
 
 Current issues:
-- The program relies on the Gurobi library which requires license. A possible solution is to rewrite the board-solving logic in a way that does not rely on external libraries that are not free.
+- The program relies on the Gurobi library which requires license.
